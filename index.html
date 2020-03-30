@@ -1,23 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<header class="container">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="C:\Users\Java\Desktop\mirror-fashion\css\index.css">
-    <title>Mirror fashion</title>
-</head>
+    <link rel="stylesheet" href="css/index.css">
+<img class="logotipo" src="img/logo.png"alt="Logo da Mirror Fashion">
+<p class="sacola">Nenhum item na sacola de compras</p>
+<nav class="menu-opcoes">
+<ul class="menu-opcoesul">
+	<li class="menu-opcoesulli"><a href="#">Sua Conta</a></li>
+	<li class="menu-opcoesulli"><a href="#">Lista de Desejos</a></li>
+	<li class="menu-opcoesulli"><a href="#">Cartão Fidelidade</a></li>
+	<li class="menu-opcoesulli"><a href="sobre.html">Sobre</a></li>
+	<li class="menu-opcoesulli"><a href="#">Ajuda</a></li>
+</ul>
+</nav>
+
+<div class="container destaque">
+
+<section class="busca">
+<h2>Busca</h2>
+<form><input type="search">
+<button>Buscar</button>
+</form>
+</section>
+
+<section class="menu-departamentos">
+<h2>Departamentos</h2>
+<nav>
+	<ul>
+		<li>
+			<a href="#">Blusas e Camisas</a></li>
+			<li><a href="#">Calças</a></li>
+			<li><a href="#">Saias</a></li>
+			<li><a href="#">Vestidos</a></li>
+			<li><a href="#">Sapatos</a></li>
+			<li><a href="#">Bolsas e Carteiras</a></li>
+			<li><a href="#">Acessórios</a>
+			</li>
+		</ul>
+	</nav>
+	</section>
+
+	<section class="banner-destaque">
+		<figure><img src="img/destaque-home.png"alt="Promoção: Big City Night">
+		</figure>
+	</section>
+	</div>
+
+</header>
+
+
+
+<form class="form">
+<input type="search"><button>Buscar</button>
+</form>
 <body>
-    <img src="C:\Users\Java\Downloads\caelum-arquivos-curso-web\mirrorfashion\img\logo.png" alt="logo da mirror fashion">
+
     <h1>
         A Mirror Fashion
     </h1>
     <p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de       
         moda em todo o mundo. Fundada em 1932, possui filiais em 124 países, sendo líder de       
         mercado com mais de 90% de participação em 118 deles.</p>
-    <p>Nosso centro de distribuição fica em Jacarezinho, no Paraná. De lá, saem 48 aviões que       
+    <p>Nosso centro de distribuição fica em Jacarezinho, no Paraná <a href="https://maps.google.com.br/?q=Jacarezinho">   Jacarezinho, no Paraná</a>. De lá, saem 48 aviões que       
         distribuem nossos produtos às casas do mundo todo. Nosso centro de distribuição:</p>
-    <figure>
-        <img src="C:\Users\Java\Downloads\caelum-arquivos-curso-web\mirrorfashion\img\centro-distribuicao.png" alt="Foto centro de distribuição">
+    <figure id="centro-distribuicao">
+        <img src="img\centro-distribuicao.png" alt="Foto centro de distribuição">
     <figcaption>centro de distribuição da mirror fashion</figcaption>
     </figure>
     <p>
@@ -28,8 +77,8 @@
     <h2>
         Historia
     </h2>
-    <figure>
-        <img src="C:\Users\Java\Downloads\caelum-arquivos-curso-web\mirrorfashion\img\familia-pelho.jpg"alt="Foto da família Pelho"> 
+    <figure id="familia-pelho">
+        <img src="img\familia-pelho.jpg"alt="Foto da família Pelho"> 
         <figcaption>Família Pelho</figcaption>
     </figure>
     <p>A fundação em 1932 ocorreu no momento da descoberta econômica do interior do Paraná.
@@ -49,5 +98,10 @@
         prêmios, homenagens e condecorações. Todos os presidentes do Brasil já visitaram as       
         instalações da Mirror Fashion, além de presidentes da União Européia, Ásia e o       
         secretário-geral da ONU.</p>
+
+<div id="rodape">
+	<img src="img/logo.png"alt="Logo da Mirror Fashion"> &copy; Copyright Mirror Fashion</div>
 </body>
+
+
 </html>
